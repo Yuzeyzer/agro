@@ -1,0 +1,32 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+}
+.col-6 {
+	width: 50%;
+}
+.text-right {
+	text-align: right;
+}
+.header__nav {
+	padding-left: 68px;
+	padding-top: 53px;
+	padding-bottom: 43px;
+}
+.header__item {
+	margin-right: 29px;
+	list-style: none;
+}
+.header__link {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+}
