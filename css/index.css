@@ -9,6 +9,9 @@
 .flex {
 	display: flex;
 }
+.align-center {
+	align-items: center;
+}
 .col-6 {
 	width: 50%;
 }
