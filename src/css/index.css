@@ -1,0 +1,22 @@
+@import './components/header.css';
+
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+}
+.align-center {
+	align-items: center;
+}
+.col-6 {
+	width: 50%;
+}
+.text-right {
+	text-align: right;
+}
