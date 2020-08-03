@@ -1,3 +1,9 @@
+.header {
+	position: absolute;
+	width: 100%;
+	max-height: 108px;
+	border-bottom: 1px solid rgba(255,255,255, 0.3);
+}
 .header__nav {
 	padding-left: 68px;
 	padding-top: 53px;
@@ -11,5 +17,19 @@
 	text-decoration: none;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
-	color: #000;
+	font-weight: 400;
+	color: #fff;
+}
+.header__btn {
+	margin-top: 34px;
+	padding: 18px 34px;
+	border-radius: 23px;
+	background-color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
