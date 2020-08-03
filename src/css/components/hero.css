@@ -1,5 +1,12 @@
 .hero {
-	background: url('../../images/hero-bg.png');
-	background-size: cover;
-	height: 1627px;
+  background: url('../../images/hero-bg.png');
+  background-size: cover;
+  height: 1627px;
+  padding-top: 290px;
+}
+
+.hero__title {
+  font-size: 200px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
