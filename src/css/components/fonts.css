@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Storytella';
+	src: 
+		url('../../fonts/Storytella.woff') format('woff'),
+    url('../../fonts/Storytella.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

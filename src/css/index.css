@@ -1,23 +1,24 @@
 @import './components/header.css';
 @import './components/hero.css';
+@import './components/fonts.css';
 
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .container {
-	max-width: 1170px;
-	margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .flex {
-	display: flex;
+  display: flex;
 }
 .align-center {
-	align-items: center;
+  align-items: center;
 }
 .col-6 {
-	width: 50%;
+  width: 50%;
 }
 .text-right {
-	text-align: right;
+  text-align: right;
 }
