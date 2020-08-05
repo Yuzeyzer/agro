@@ -12,12 +12,29 @@
 }
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 .align-center {
   align-items: center;
 }
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
 .col-6 {
   width: 50%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
 }
 .text-right {
   text-align: right;

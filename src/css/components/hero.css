@@ -6,7 +6,32 @@
 }
 
 .hero__title {
-  font-size: 200px;
-  color: #fff;
   font-family: 'Storytella', sans-serif;
+  font-size: 200px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.food__container {
+  max-width: 1380px;
+  margin: auto;
+}
+.food__item {
+  background: url(../../images/organic-1.png) no-repeat;
+  min-height: 340px;
+  height: 100%;
+}
+.food__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  width: 70%;
+  background-color: #fcdb5a;
+  color: #000;
+  border-radius: 15px;
+  margin: 0 auto;
 }
