@@ -12,26 +12,44 @@
   color: #fff;
 }
 
+.food {
+  margin-top: 185px;
+}
+
 .food__container {
   max-width: 1380px;
   margin: auto;
 }
 .food__item {
-  background: url(../../images/organic-1.png) no-repeat;
   min-height: 340px;
   height: 100%;
+  cursor: pointer;
+}
+
+.img-1 {
+  background: url(../../images/organic-1.png) no-repeat;
+  background-size: cover;
+}
+.img-2 {
+  background: url(../../images/organic-2.jpg) no-repeat;
+  background-size: cover;
+}
+.img-3 {
+  background: url(../../images/organic-3.jpg) no-repeat;
+  background-size: cover;
+}
+.img-4 {
+  background: url(../../images/organic-4.jpg) no-repeat;
+  background-size: cover;
 }
 .food__title {
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: 900;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   color: #fff;
   padding: 10px 0;
-  width: 70%;
-  background-color: #fcdb5a;
-  color: #000;
-  border-radius: 15px;
-  margin: 0 auto;
+  color: #fff;
+  margin: 0 20px;
 }
