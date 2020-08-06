@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;700;900&display=swap');
 
 @font-face {
-  font-family: 'Storytella';
-	src: 
-		url('../../fonts/Storytella.woff') format('woff'),
-    url('../../fonts/Storytella.woff2') format('woff2');
-  font-weight: medium;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Storytella";
   src: url("../../fonts/Storytella-light.woff") format("woff"), /* Modern Browsers */
     url("../../fonts/Storytella-light.woff2") format("woff2"); /* Modern Browsers */
