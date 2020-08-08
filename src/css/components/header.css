@@ -1,8 +1,11 @@
 .header {
 	position: absolute;
+	left: 0;
+	top: 0;
 	width: 100%;
 	max-height: 108px;
 	border-bottom: 1px solid rgba(255,255,255, 0.3);
+	z-index: 1;
 }
 .header__nav {
 	padding-left: 68px;

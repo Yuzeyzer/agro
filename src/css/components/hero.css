@@ -1,8 +1,19 @@
 .hero {
-  background: url('../../images/hero-bg.png');
+  background: url('../../images/hero-bg.png') center;
   background-size: cover;
-  height: 1627px;
+  min-height: 1627px;
   padding-top: 290px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  bottom: -250px;
+  width: 120%;
+  min-height: 500px;
+  background-color: white;
+  z-index: 0;
+  transform: rotate(-10deg);
 }
 
 .hero__title {
@@ -32,6 +43,18 @@
   bottom: 0;
   left: 15px;
   z-index: 1;
+}
+
+.food__title::before {
+  content: '';
+  position: absolute;
+  left: 5%;
+  bottom: -150%;
+  width: 115px;
+  height: 115px;
+  box-shadow: 0 0 110px 110px rgba(0, 0, 0, 1);
+  z-index: -1;
+  border-radius: 50%;
 }
 
 .food__item:hover {

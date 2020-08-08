@@ -13,3 +13,31 @@
 .col-9 {
   width: 75%;
 }
+
+
+@media screen and (max-width:1024px) {
+  .col-3 {
+    width: 50%;
+  }
+  .col-4 {
+    width: 66.66%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-8 {
+    width: 100%;
+  }
+  .col-9 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+}
