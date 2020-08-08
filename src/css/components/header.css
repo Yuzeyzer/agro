@@ -43,4 +43,8 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
+	transition: 0.3s;
+}
+.header__btn:hover {
+	background-color: var(--orange);
 }

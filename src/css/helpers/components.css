@@ -25,3 +25,8 @@
 .text-right {
   text-align: right;
 }
+
+.overflow-relative {
+  position: relative;
+  overflow: hidden;
+}
