@@ -6,7 +6,7 @@
 }
 
 .hero__title {
-  font-family: 'Storytella', sans-serif;
+  font-family: var(--story);
   font-size: 200px;
   font-weight: 300;
   color: #fff;
