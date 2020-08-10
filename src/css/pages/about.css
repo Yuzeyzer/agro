@@ -1,0 +1,31 @@
+@import '../components/header.css';
+@import '../helpers/components.css';
+@import '../components/base.css';
+@import '../helpers/grid.css';
+@import '../helpers/variables.css';
+@import '../components/fonts.css';
+
+.about {
+	padding-top: 200px;
+}
+.about__img-left {
+	max-width: 715px;
+	height: 490px;
+}
+.about__title {
+	font-size: 100px;
+	font-family: var(--story);
+}
+.header {
+	border-bottom: 1px solid rgba(0,0,0, 0.3);
+}
+.header__link {
+	color: black;
+}
+.header__btn {
+	background-color: var(--orange);
+}
+.header__btn:hover {
+	background-color: black;
+	color: white;
+}

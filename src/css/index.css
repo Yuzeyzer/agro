@@ -1,25 +1,8 @@
 @import './components/header.css';
+@import './components/base.css';
 @import './components/hero.css';
 @import './components/fonts.css';
 @import './helpers/variables.css';
 @import './helpers/grid.css';
 @import './helpers/components.css';
 @import './responsive/index.css';
-
-* {
-  padding: 0;
-  margin: 0;
-}
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-body {
-  overflow-x: hidden;
-}
-
-@media screen and (max-width:768px) {
-  .container {
-    max-width: 580px;
-  }
-}
